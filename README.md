@@ -24,7 +24,8 @@ chmod  755  soft/annovar/annotate_variation.pl
 python  get_variant-fasta.py  /path/to/RNA-seq1_1.fastq  /path/to/RNA-seq1_2.fastq
 ```
 eg: python  get_variant-fasta.py  test/rna/rnaseq-sample1_1.fastq  test/rna/rnaseq-sample1_2.fastq
-![](img/fig.tif)
+
+![](img/fig1.png)
 
 Figure1. Construction of customized protein sequence database  
 ### Reference method: 
@@ -57,7 +58,9 @@ pip install pandas
 pip install future
 ```
 *   6.Create a configuration file following config.ini
- 
+
+![](img/fig3.png)
+
 #### 3.2.2 Predicting HLA typing from next-generation sequencing data
 ```bash
 cd soft/OptiType
@@ -72,6 +75,8 @@ cd  soft/NetMHCpan-4.0
 ```
 In the 'netMHCpan-4.0' directory edit the script 'netMHCpan' [7]:
 At the top of the file  locate the part labelled  "GENERAL SETTINGS: CUSTOMIZE TO YOUR SITE”, set the 'NMHOME' variable to the full path to the 'netMHCpan-4.0' directory on your system.
+
+![](img/fig4.png)
  
 *   2.Installation of mono
 ```bash
@@ -90,9 +95,8 @@ python  neoantigen_prediction_filtration.py  /path/to/WES.vcf  HLA_typing /path/
 The transcripts.fasta file supplied can be either in plaintext or gzipped format. Prebuilt indices constructed from [Ensembl reference transcriptomes](https://uswest.ensembl.org/info/data/ftp/index.html) can be download from the [kallisto transcriptome indices](https://github.com/pachterlab/kallisto-transcriptome-indices/releases) site [9].
 
 eg: python  NetMHCpan_Maxquant_lable-free.py  test/WGS_20180423.vcf  HLA-A03:01 soft/kallisto/test/transcripts.fasta.gz  test/rna/rnaseq-sample1_1.fastq test/rna/rnaseq-sample1_2.fastq   /export3/home/user/pipline/test/ms  /export3/home/user/pipline/refseq+varseq.fasta
-<center>
-![mahua](mahua-logo.jpg)
-</center>
+
+![](img/fig2.png)
 
 Figure2. Prediction and Filtration of Neontigens 
 
