@@ -1,1 +1,1 @@
-start from start.sh
+start from start.sh or download them yourself
