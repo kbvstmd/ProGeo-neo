@@ -24,9 +24,7 @@ chmod  755  soft/annovar/annotate_variation.pl
 python  get_variant-fasta.py  /path/to/RNA-seq1_1.fastq  /path/to/RNA-seq1_2.fastq
 ```
 eg: python  get_variant-fasta.py  test/rna/rnaseq-sample1_1.fastq  test/rna/rnaseq-sample1_2.fastq
-<center>
-![mahua](mahua-logo.jpg)
-</center> 
+![](img/fig.tif)
 
 Figure1. Construction of customized protein sequence database  
 ### Reference method: 
