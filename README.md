@@ -58,6 +58,7 @@ pip install pandas
 pip install future
 ```
 *   6.Create a configuration file following config.ini
+In the 'OptiType' directory edit the script config.ini 
 
 ![](img/fig3.png)
 
