@@ -8,7 +8,8 @@ ProGeo-neo requires a Linux operation system (centos6) with Python (V2.7) , Perl
 In order to run normally, some third-party software such as BWA ,Gatk,and Annovar need extra databases. Here we provided these files in the reference_files, such as Hg38.fasta. In addition, during annotating genetic variants, annovar software needs lots of databases including: refGene, ensGene, cytoBand, avsnp147, dbnsfp30a, MT_ensGeneMrna, refGeneWithVerMrna, etc. of hg 38, putting them into humandb folder for the sake of convenience. 
 ## 3.	Usage
 ```bash
-cd ProGeo-neo   
+cd ProGeo-neo 
+bash start.sh
 Users with root privileges can ignore the following:
 chmod  755  soft/bwa/bwa
 chmod  755  soft/samtools/samtools
