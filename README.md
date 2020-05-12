@@ -1,6 +1,7 @@
 # ProGeo-neo
  a Customized Proteogenomic Workflow for Neoantigen Prediction and Selection
- 
+ If you find it helpful, please consider citing our paper.
+ Li, Y., Wang, G., Tan, X. et al. ProGeo-neo: a customized proteogenomic workflow for neoantigen prediction and selection. BMC Med Genomics 13, 52 (2020). https://doi.org/10.1186/s12920-020-0683-4
 # User’s Manual
 ## 1.    Running environment
 ProGeo-neo requires a Linux operation system (centos6) with Python (V2.7) , Perl and Java installed. 
