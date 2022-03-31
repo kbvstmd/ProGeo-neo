@@ -1,4 +1,4 @@
-wget -c --no-passive-ftp ftp://118.31.70.55/liyuyu/ProGro-neo/test.tar.gz
-wget -c --no-passive-ftp ftp://118.31.70.55/liyuyu/ProGro-neo/soft.tar.gz
-wget -c --no-passive-ftp ftp://118.31.70.55/liyuyu/ProGro-neo/reference_files.tar.gz
+wget -c http://118.31.70.55/ProGro-neo/data/test.tar.gz
+wget -c http://118.31.70.55/ProGro-neo/data/soft.tar.gz
+wget -c http://118.31.70.55/ProGro-neo/data/reference_files.tar.gz
 tar -zxvf *.gz
